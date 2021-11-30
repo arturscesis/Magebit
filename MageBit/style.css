@@ -1,0 +1,450 @@
+a{
+    color:#131821;
+}
+
+a:hover{
+    color:#4066A5;
+}
+
+a:active{
+    color:#233759;
+}
+
+#pin-logo{
+position: absolute;
+width: 25px;
+height: 40px;
+left: 100px;
+top: 100px;
+}
+
+#about{
+position: absolute;
+width: 42px;
+height: 26px;
+left: 331px;
+top: 114px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6A707B;
+}
+
+#how-it-works{
+position: absolute;
+width: 91px;
+height: 26px;
+left: 403px;
+top: 114px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6A707B;
+}
+
+#contact{
+position: absolute;
+width: 56px;
+height: 26px;
+left: 524px;
+top: 114px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #6A707B;
+}
+
+#top-text{
+position: absolute;
+width: 399px;
+height: 44px;
+left: 140px;
+top: 374px;
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+color: #131821;
+}
+
+#lower-text{
+position: absolute;
+width: 400px;
+height: 56px;
+left: 140px;
+top: 433px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #6A707B;
+}
+
+#email-line{
+position: absolute;
+width: 4px;
+height: 70px;
+left: 100px;
+top: 539px;
+z-index: 3;
+background: #4066A5;
+}
+
+#email-input{
+position: absolute;
+width: 663px;
+height: 70px;
+left: 100px;
+top: 539px;
+background: #FFFFFF;
+border: 1px solid #E3E3E4;
+box-sizing: border-box;
+z-index: 2;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+padding-left: 20px;
+}
+
+#email-input:focus{
+background: #FFFFFF;
+border: 1px solid #E3E3E4;
+box-sizing: border-box;
+box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+#email-input:hover{
+    position: absolute;
+    width: 663px;
+    height: 70px;
+    left: 100px;
+    top: 539px;
+    border: 1px solid #4066A5;
+    z-index: 2;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+padding-left: 20px;
+box-sizing: border-box;
+box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+.inputForm.error input{
+    border-color: red;
+    z-index: 2;
+}
+
+#input-arrow{
+position: absolute;
+background: url("images/ic_arrow.png") no-repeat;
+width: 24px;
+height: 14px;
+left: 699px;
+top: 567px;
+border: none;
+opacity: 0.3;
+z-index: 2;
+}
+
+small{
+    visibility: hidden;
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 100px;
+    top: 620px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: red;
+}
+.inputForm.error small{
+    visibility: visible;
+}
+
+
+#TOS-checkbox{
+position: absolute;
+width: 26px;
+height: 26px;
+left: 140px;
+top: 660px;
+background: #4066A5;
+background-image: url("images/ic_checkmark.png");
+border-radius: 3px;
+cursor: pointer;
+line-height: 26px;
+text-align: center;
+}
+
+#TOS-checkbox:checked{
+background: #4066A5;
+border-radius: 3px;
+}
+
+#TOS-text{
+position: absolute;
+width: 359px;
+height: 28px;
+left: 181px;
+top: 662px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #6A707B;
+}
+
+#line{
+position: absolute;
+width: 400px;
+height: 1px;
+left: 140px;
+top: 740px;
+background: #E3E3E4;
+}
+
+#facebook{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 218px;
+top: 791px;
+border: 2px solid #E3E3E4;
+box-sizing: border-box;
+border-radius: 25px;
+line-height: 46px;
+text-align: center;
+cursor: pointer;
+background: url("images/ic_facebook.png") center no-repeat;
+}
+
+#facebook:hover{
+background: #4267B2;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+transform: translateY(4px);
+border: hidden;
+}
+
+#facebook img{
+    visibility: hidden;
+}
+
+#facebook:hover img{
+    visibility: visible;
+    background: url("images/f-white.png") center no-repeat;
+    transform: translateY(4px);
+
+}
+
+#facebook:active{
+background: #2F4A80;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: hidden;
+}
+
+
+#instagram{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 284px;
+top: 791px;
+border: 2px solid #E3E3E4;
+box-sizing: border-box;
+border-radius: 25px;
+line-height: 46px;
+text-align: center;
+cursor: pointer;
+background: url("images/instagram.png") center no-repeat;
+
+}
+
+#instagram:hover{
+    background: #C13584;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+    transform: translateY(4px);
+    border: hidden;
+}
+
+#instagram img{
+    visibility: hidden;
+}
+
+#instagram:hover img{
+    visibility: visible;
+    background: url("images/i-white.png") center no-repeat;
+    transform: translateY(4px);
+}
+
+#instagram:active{
+background: #8F2762;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: hidden;
+}
+
+#twitter{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 350px;
+top: 791px;
+border: 2px solid #E3E3E4;
+box-sizing: border-box;
+border-radius: 25px;
+line-height: 46px;
+text-align: center;
+cursor: pointer;
+background: url("images/ic_twitter.png") center no-repeat;
+}
+
+#twitter img{
+    visibility: hidden;
+}
+
+#twitter:hover img{
+    visibility: visible;
+    background:url("images/t-white.png") center no-repeat;
+    transform: translateY(2px);
+}
+
+#twitter:hover{
+background: #1DA1F2;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+transform: translateY(4px);
+border: hidden;
+}
+
+#twitter:active{
+background: #177FBF;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: hidden;
+}
+
+
+#youtube{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 416px;
+top: 791px;
+border: 2px solid #E2E3E4;
+box-sizing: border-box;
+border-radius: 25px;
+line-height: 46px;
+text-align: center;
+cursor: pointer;
+background: url("images/youtube.png") center no-repeat;
+}
+
+#youtube img{
+    visibility: hidden;
+}
+
+#youtube:hover img{
+    visibility: visible;
+    background: url("images/y-white.png") center no-repeat;
+}
+
+#youtube:hover{
+background: #FF0000;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+transform: translateY(4px);
+border: hidden;
+}
+
+#youtube:active{
+background: #CC0000;
+box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+border: hidden;
+}
+
+#main-img{
+position: absolute;
+width: 1240px;
+height: 1080px;
+left: 680px;
+top: 0px;
+z-index: 1;
+}
+
+/* THANK YOU SCREEN CSS */
+
+#s-icon{
+position: absolute;
+width: 44px;
+height: 70px;
+left: 140px;
+top: 269px;
+}
+
+#top-texts{
+position: absolute;
+width: 400px;
+height: 44px;
+left: 140px;
+top: 369px;
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 44px;
+color: #131821;
+}
+
+#lower-texts{
+position: absolute;
+width: 400px;
+height: 56px;
+left: 140px;
+top: 433px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #6A707B;
+}
+
+#line-s{
+position: absolute;
+width: 400px;
+height: 1px;
+left: 140px;
+top: 539px;
+background: #E3E3E4;
+}
+
+#success-page #facebook{
+    left: 218px;
+    top: 590px;
+}
+
+#success-page #instagram{
+    left: 284px;
+    top: 590px;
+}
+
+#success-page #twitter{
+    left: 350px;
+    top: 590px;
+}
+
+#success-page #youtube{
+    left: 416px;
+    top: 590px;
+}
